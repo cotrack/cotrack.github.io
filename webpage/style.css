@@ -54,5 +54,8 @@
 
 
     .picDiv{
+    
         grid-area: 4 / 2 / 6 / 5;
+       height: 800px;
+      
     }
