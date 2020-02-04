@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C02 Tracker Projekt</title>
+  </head>
+  <body>
+    <img class="logo" src="/hsmainz.jpg">
+    
+    <div class="title" style="font-size:30px;" >
+
+       Backendanwendung CO2 Tracker
+
+    </div>
+
+    <div class="parent">
+
+    
+    
+    
+     <div class="divDescBackend">
+        Die Backendanwendung ist eine serverseitige Anwendung, deren Hauptaufgabe das Speichern von Benutzerdaten ist.
+         Zudem wird hier eine Login-Verwaltung aufgebaut, die nutzerbezogene Daten individuell speichert. 
+         Die Backendanwendung stellt für die Kommunikation nach außen REST-Schnittstellen bereit. Diese Schnittstellen
+          werden benötigt, um einerseits Daten von der Android-Applikation aufzunehmen, und andererseits Daten für 
+          die Webanwendung aufzuberei-ten.         Die Funktionalität der Backend-Anwendung beschränkt sich auf die 
+          Datenhaltung der Benut-zerdaten. Um diese zu realisieren, wird eine Authentifizierung der Nutzer benötigt.
+           Zudem werden die Daten in einer geeigneten Datenbank verwaltet. Der Zugriff auf diese Daten wird durch 
+           Schnittstellen bereitgestellt.  Die Datenhaltung erfolgt im Backend durch die Implemen-tierung einer H2-Datenbank.
+            Die H2-Datenbank ist eine Open-Source Java-Datenbank, welche unter anderem Features wie Volltextsuche und 
+            Verschlüsselung unterstützt. In dieser Datenbank werden die von der Android-App gesammelten Daten für jeden 
+            Nutzer abgelegt. Die Au-thentifizierung der Nutzer wird in Verbindung mit der Google-Login-Schnittstelle implemen-tiert. 
+            Diese garantiert eine eindeutige Identifizierung und ist kostenfrei zugänglich. 
+        
+        </div>
+
+    </div>
+
+  </body>
+</html>
