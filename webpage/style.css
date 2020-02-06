@@ -4,7 +4,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    
+
     }
     
     .fill{
@@ -149,3 +149,25 @@
         color: aliceblue;
         padding: 30px;
     }
+
+    .umlSpace{
+        grid-area: 3 / 1 / 6 / 6;
+        background-color: rgb(255, 255, 255);
+        padding-top: 10px;
+        
+        
+
+    }
+
+    .umlImg{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 2px solid black;
+    }
+
+
+    .whitespace{
+        height: 2000px;
+    }
+
